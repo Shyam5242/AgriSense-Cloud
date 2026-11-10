@@ -1,0 +1,19 @@
+# Python 3.10, 3.11 or 3.12 recommended (TensorFlow does not yet support newer versions)
+numpy
+pandas
+scikit-learn
+joblib
+pillow
+tensorflow>=2.16
+streamlit>=1.35
+fastapi
+uvicorn[standard]
+python-multipart
+# --- cloud (optional locally, used when deployed) ---
+google-cloud-storage
+google-cloud-bigquery
+earthengine-api
+kagglehub
+plotly
+xgboost
+requests

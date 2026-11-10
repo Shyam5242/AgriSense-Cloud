@@ -1,0 +1,28 @@
+# secrets and local configuration - never commit these
+start_all.bat
+run_ingestion.bat
+.env
+*.key
+credentials*.json
+
+# environments and caches
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# generated or large files (see README: models are trained, data is generated)
+models/*
+!models/.gitkeep
+data/*
+!data/.gitkeep
+examples/leaf/*
+examples/landcover/*
+!examples/leaf/.gitkeep
+!examples/landcover/.gitkeep
+ingestion_log.txt
+*.keras
+*.joblib
+*.zip

@@ -1,0 +1,16 @@
+numpy
+pandas
+scikit-learn
+joblib
+pillow
+tensorflow-cpu>=2.16
+streamlit>=1.35
+fastapi
+uvicorn[standard]
+python-multipart
+google-cloud-storage
+google-cloud-bigquery
+earthengine-api
+plotly
+xgboost
+requests
